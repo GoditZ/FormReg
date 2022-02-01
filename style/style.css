@@ -1,16 +1,38 @@
 *{
-    box-sizing: 0;
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
 }
-
 
 body{
-    font-family: Arial, Helvetica, sans-serif;
-    line-height: 1.5;
-    font-size: 16px;
+  font-family: Arial, Helvetica, sans-serif;
+  line-height: 1.5;
+  font-size: 14px;
+	padding: 30px;
 }
 
-form{
-  width: 200px;
-  margin: auto;
-  padding-top: 250px;
+h1{
+	margin-bottom: 10px;
 }
+
+.form{
+	width: 400px;
+	display: flex;
+	flex-direction: column;
+  margin: auto;
+padding-top: 250px;
+}
+
+#langprog{
+	max-width: 110px;
+}
+
+#submit{
+	width: 30%;
+}
+*{
+  box-sizing: 0;
+}
+
+
+
